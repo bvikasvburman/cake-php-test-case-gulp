@@ -3,12 +3,14 @@
 ## Take clone of this repository
 
 Using SSH
+------------
 
 $ git clone git@github.com:bvikasvburman/cake-php-test-case-gulp.git
 
 or 
 
 Using https 
+------------
 
 $ git clone https://github.com/bvikasvburman/cake-php-test-case-gulp.git
 
