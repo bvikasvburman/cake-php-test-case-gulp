@@ -1,0 +1,8 @@
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+*.sublime-project
+*.sublime-workspace
+composer.lock
+node_modules/*
