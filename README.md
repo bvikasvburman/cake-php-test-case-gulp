@@ -35,7 +35,7 @@ $ npm install -g gulp
 
 $ npm install
 
-# Run gulp command on terminal
+## Run gulp command on terminal
 
 $ gulp
 
