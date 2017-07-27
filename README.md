@@ -1,4 +1,4 @@
-#Cakephp Testing using gulp
+# Cakephp Testing using gulp
 
 ## Take clone of this repository
 
@@ -9,6 +9,7 @@ $ git clone git@github.com:bvikasvburman/cake-php-test-case-gulp.git
 or 
 
 Using https 
+
 $ git clone https://github.com/bvikasvburman/cake-php-test-case-gulp.git
 
 
