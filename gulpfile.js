@@ -25,7 +25,8 @@ gulp.task("testing", function(){
 
 
 gulp.task("watch", function(){
-	gulp.watch(['tests/TestCase/**/*.php', 'App/Model/**/*.php'], ['testing']);
+	//gulp.watch(['tests/TestCase/**/*.php', 'App/Model/**/*.php'], ['testing']);
+    gulp.watch(['tests/TestCase/Controller/UsersControllerTest.php', 'App/Model/**/*.php'], ['testing']);
 });
 
 gulp.task('default', ['testing', 'watch']);

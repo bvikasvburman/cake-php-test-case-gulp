@@ -43,6 +43,16 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        
+        $this->loadComponent('Auth', [
+            'authenticate' => [
+                'Form' => [
+                    'fields' => ['username' => 'email', 'password' => 'password']
+                ]
+            ]
+        ]);
+
+        $this->Auth->allow(['add']);
 
         /*
          * Enable the following components for recommended CakePHP security settings.
@@ -66,4 +76,6 @@ class AppController extends Controller
             $this->set('_serialize', true);
         }
     }
+
+
 }
